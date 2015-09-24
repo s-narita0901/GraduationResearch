@@ -1,4 +1,7 @@
-﻿import pymongo
+#!/use/bin/env python
+#-*- coding: utf-8 -*-
+
+import pymongo
 
 # mongodbへ接続
 client=pymongo.MongoClient()
