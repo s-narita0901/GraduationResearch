@@ -1,7 +1,16 @@
 ﻿<html>
 <head></head>
 <body>
-    位置情報:<input type="text" name="position" size="40" maxlength="40">
-    時間情報:<input type="text" name="time" size="40" maxlength="40">
+<form method="post" action="/sendtodb">
+<p>
+緯度:<input type="text" name="lati" size="40" maxlength="40"><br>
+経度:<input type="text" name="longi" size="40" maxlength="40"><br>
+時間情報:<input type="text" name="t" size="40" maxlength="40">
+</p>
+<p>
+<input type="submit" value="ToMongoDB">
+<input type="reset" value="リセット"
+</p>
+</form>
 </body>
 </html>
