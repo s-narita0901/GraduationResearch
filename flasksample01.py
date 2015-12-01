@@ -31,7 +31,13 @@ def sendtodb():
         print elem
     print "--------"
     
+    #dbからXMLへ
+    print "latest lati : "+lati
+    print "latest longi : "+longi
+    print "latest time : "+t
+    
+    
     return render_template("todb.html")
 
-app.debug=True
-app.run()
+app.debug=False
+app.run(host='0.0.0.0')
