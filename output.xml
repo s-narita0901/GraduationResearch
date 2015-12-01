@@ -1,0 +1,21 @@
+<?xml vesion="1.0" encoding="utf-8" ?>
+<ContentsRoot
+    OutputWidth="1280" OutputHeight="720"
+    OutputFileName="" OutputVideoType="VideoH264"
+    OutputVideoBitrate="44100" OutputAudioBitrate="96000"
+    OutputH264Profile="BASE" OutputH24Level="4.1" PlaingInTransition="True"
+    ResourceFolder="Template">
+
+    <AudioElement
+        Source=""
+        BeginPosition=""
+    />
+
+    <BlockElement
+        Duration="00:00:05"
+        Source=""
+        BeginPosition=""
+        Stretch="Uniform">
+    </BlockElement>
+
+</ContentsRoot>
