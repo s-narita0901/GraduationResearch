@@ -49,5 +49,5 @@ def sendtodb():
     
     return render_template("todb.html")
 
-#app.debug=false
+app.debug=False
 app.run(host='0.0.0.0')

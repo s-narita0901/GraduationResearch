@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentsRoot
+	OutputWidth="1280" OutputHeight="720"
+	OutputFileName="sample03_04.mp4" OutputVideoType="VideoH264"
+	OutputVideoBitrate="16000000" OutputVideoFramerate="30.0"
+	OutputAudioSamples="44100" OutputAudioBitrate="96000"
+	OutputH264Profile="BASE" OutputH264Level="4.1" PlaingInTransition="True"
+	ResourceFolder="Templates">
+
+	<!-- BGM -->
+	<!-- Duration‚Í‰½•bŠÔÄ¶‚·‚é‚©‚Ì’l -->
+	<AudioElement
+		Source="*sounds/sound02.mp3"
+		Duration="00:00:5" StartTime="00:00:00" FadeOut="00:00:00"/>
+
+	<!-- BlockElement‚²‚Æ‚ÉŒø‰Ê‚È‚Ç‚ð•t—^‚Å‚«‚é -->
+	<!-- ‰æ‘œ‚Ì‚P–‡–Ú -->
+	<BlockElement
+		Duration="00:00:05"
+		Source="*images/image02/004.jpg"
+		Stretch="Uniform">
+	</BlockElement>
+
+
+</ContentsRoot>

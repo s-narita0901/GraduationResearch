@@ -2,14 +2,26 @@
 <head></head>
 <body>
 <form method="post" action="/sendtodb">
-<p>
-緯度:<input type="text" name="lati" size="40" maxlength="40"><br>
-経度:<input type="text" name="longi" size="40" maxlength="40"><br>
+<!-- <p>
+ディスプレイID:<input type="text" name="d_id" size="40" maxlength="40"><br>
 時間情報:<input type="text" name="t" size="40" maxlength="40">
 </p>
 <p>
 <input type="submit" value="ToMongoDB">
 <input type="reset" value="リセット"
+</p>
+<p> -->
+<table border=1>
+<tr><td>動画</td><td>情報</td></tr>
+<tr>
+<td><video controls poster="static/004.jpg" width="320" height="180">
+<source src="static/sample03_04.mp4" ></video></td>
+<td>id: 0001<br>time 20:11:00</td>
+</tr><tr>
+<td><video controls poster="static/005.jpg" width="320" height="180">
+<source src="static/sample03_05.mp4" ></video></td>
+<td>id: 0001<br>time 20:11:30</td>
+</tr>
 </p>
 </form>
 </body>

@@ -1,0 +1,8 @@
+<ContentsRoot OutpuFileName="&lt;pymongo.cursor.Cursor object at 0x7f1f00234e90&gt;" OutputAudioBitrate="96000" OutputH24Level="4.1" OutputH264Profile="BASE" OutputHeight="720" OutputVideoBitrate="44100" OutputVideoType="VideoH264" OutputWidth="1280" PlaingInTransition="True" ResourceFolder="Template">
+
+    <AudioElement BeginPosition="" Source="" />
+
+    <BlockElement BeginPosition="" Duration="00:00:05" Source="" Stretch="Uniform">
+    </BlockElement>
+
+</ContentsRoot>
